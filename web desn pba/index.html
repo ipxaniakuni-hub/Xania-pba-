@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sarawak Holiday Tours</title>
+
+    <!-- jQuery Mobile CSS -->
+    <link rel="stylesheet"
+        href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <!-- jQuery Mobile -->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+
+<body>
+
+<!-- =====================================================
+     HOME PAGE
+===================================================== -->
+
+<div data-role="page" id="home">
+
+    <div data-role="header" data-position="fixed">
+        <h1>Sarawak Holiday Tours</h1>
+
+        <div data-role="navbar">
+            <ul>
+                <li>
+                    <a href="#home"
+                       data-transition="slide"
+                       class="ui-btn-active">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#packages"
+                       data-transition="slide">
+                        Packages
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#booking"
+                       data-transition="slide">
+                        Booking
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact"
+                       data-transition="slide">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div role="main" class="ui-content home-content">
+
+        <div class="hero">
+
+            <h2>Explore Beautiful Sarawak</h2>
+
+            <p>
+                Discover amazing destinations, wildlife,
+                culture and nature with our Sarawak tour packages.
+            </p>
+
+            <a href="#packages"
+               data-role="button"
+               data-transition="slide"
+               class="main-button">
+                Explore Tour Packages
+            </a>
+
+            <a href="#booking"
+               data-role="button"
+               data-transition="slide"
+               class="secondary-button">
+                Book Your Tour
+            </a>
+
+        </div>
+
+
+        <div class="information-box">
+
+            <h2>Why Choose Us?</h2>
+
+            <div class="feature">
+                <h3>🌴 Beautiful Destinations</h3>
+                <p>
+                    Visit beautiful places around Sarawak.
+                </p>
+            </div>
+
+            <div class="feature">
+                <h3>🧭 Guided Tours</h3>
+                <p>
+                    Enjoy safe and comfortable guided tours.
+                </p>
+            </div>
+
+            <div class="feature">
+                <h3>💰 Affordable Packages</h3>
+                <p>
+                    Choose tour packages that suit your budget.
+                </p>
+            </div>
+
+            <div class="feature">
+                <h3>📱 Mobile Friendly</h3>
+                <p>
+                    Our booking system can be used on
+                    computers and mobile devices.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div data-role="footer">
+        <h4>©️ 2026 Sarawak Holiday Tours</h4>
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     TOUR PACKAGES PAGE
+===================================================== -->
+
+<div data-role="page" id="packages">
+
+    <div data-role="header" data-position="fixed">
+
+        <h1>Tour Packages</h1>
+
+        <div data-role="navbar">
+            <ul>
+
+                <li>
+                    <a href="#home"
+                       data-transition="slide">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#packages"
+                       data-transition="slide"
+                       class="ui-btn-active">
+                        Packages
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#booking"
+                       data-transition="slide">
+                        Booking
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact"
+                       data-transition="slide">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+
+    <div role="main" class="ui-content">
+
+        <h2 class="section-title">
+            Explore Our Tour Packages
+        </h2>
+
+        <p class="section-description">
+            Choose from our selection of exciting Sarawak
+            holiday packages.
+        </p>
+
+
+        <!-- PACKAGE 1 -->
+
+        <div class="package-card">
+
+            <img src="village culture swk.jpg"
+                 alt="Kuching City Tour">
+
+            <div class="package-content">
+
+                <h2>Kuching City Tour</h2>
+
+                <p>
+                    Explore the beautiful city of Kuching
+                    and experience Sarawak's culture.
+                </p>
+
+                <p>
+                    <strong>Duration:</strong>
+                    <span class="tooltip-text"
+                          title="The tour lasts for 2 days and 1 night.">
+                        2 Days 1 Night
+                    </span>
+                </p>
+
+                <p>
+                    <strong>Price:</strong>
+                    <span class="price">
+                        RM 250 / person
+                    </span>
+                </p>
+
+                <a href="#package1-popup"
+                   data-rel="popup"
+                   data-position-to="window"
+                   data-transition="pop"
+                   class="ui-btn ui-corner-all">
+                    More Information
+                </a>
+
+                <a href="#booking"
+                   data-transition="slide"
+                   data-role="button">
+                    Book This Package
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- PACKAGE 2 -->
+
+        <div class="package-card">
+
+            <img src="bako bako.jpeg"
+                 alt="Bako National Park">
+
+            <div class="package-content">
+
+                <h2>Bako National Park</h2>
+
+                <p>
+                    Discover wildlife, jungle trails and
+                    beautiful beaches at Bako National Park.
+                </p>
+
+                <p>
+                    <strong>Duration:</strong>
+                    <span title="The tour lasts for 3 days and 2 nights.">
+                        3 Days 2 Nights
+                    </span>
+                </p>
+
+                <p>
+                    <strong>Price:</strong>
+                    <span class="price">
+                        RM 450 / person
+                    </span>
+                </p>
+
+                <a href="#package2-popup"
+                   data-rel="popup"
+                   data-position-to="window"
+                   data-transition="pop"
+                   class="ui-btn ui-corner-all">
+                    More Information
+                </a>
+
+                <a href="#booking"
+                   data-transition="slide"
+                   data-role="button">
+                    Book This Package
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- PACKAGE 3 -->
+
+        <div class="package-card">
+
+            <img src="Mulu-National-Park.jpeg"
+                 alt="Mulu National Park">
+
+            <div class="package-content">
+
+                <h2>Mulu National Park</h2>
+
+                <p>
+                    Explore caves, mountains and amazing
+                    rainforest scenery in Mulu.
+                </p>
+
+                <p>
+                    <strong>Duration:</strong>
+                    <span title="The tour lasts for 4 days and 3 nights.">
+                        4 Days 3 Nights
+                    </span>
+                </p>
+
+                <p>
+                    <strong>Price:</strong>
+                    <span class="price">
+                        RM 750 / person
+                    </span>
+                </p>
+
+                <a href="#package3-popup"
+                   data-rel="popup"
+                   data-position-to="window"
+                   data-transition="pop"
+                   class="ui-btn ui-corner-all">
+                    More Information
+                </a>
+
+                <a href="#booking"
+                   data-transition="slide"
+                   data-role="button">
+                    Book This Package
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- PACKAGE 4 -->
+
+        <div class="package-card">
+
+            <img src="damai beach.jpeg"
+                 alt="Damai Beach">
+
+            <div class="package-content">
+
+                <h2>Damai Beach Escape</h2>
+
+                <p>
+                    Relax at Damai Beach and enjoy a peaceful
+                    tropical holiday.
+                </p>
+
+                <p>
+                    <strong>Duration:</strong>
+                    <span title="The tour lasts for 2 days and 1 night.">
+                        2 Days 1 Night
+                    </span>
+                </p>
+
+                <p>
+                    <strong>Price:</strong>
+                    <span class="price">
+                        RM 320 / person
+                    </span>
+                </p>
+
+                <a href="#package4-popup"
+                   data-rel="popup"
+                   data-position-to="window"
+                   data-transition="pop"
+                   class="ui-btn ui-corner-all">
+                    More Information
+                </a>
+
+                <a href="#booking"
+                   data-transition="slide"
+                   data-role="button">
+                    Book This Package
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div data-role="footer">
+        <h4>©️ 2026 Sarawak Holiday Tours</h4>
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     POPUP 1
+===================================================== -->
+
+<div data-role="popup"
+     id="package1-popup"
+     class="package-popup"
+     data-dismissible="true">
+
+    <a href="#"
+       data-rel="back"
+       class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">
+        Close
+    </a>
+
+    <h2>Kuching City Tour</h2>
+
+    <p>
+        <strong>Destination:</strong>
+        Kuching City
+    </p>
+
+    <p>
+        <strong>Activities:</strong>
+        City sightseeing, cultural visits and shopping.
+    </p>
+
+    <p>
+        <strong>Facilities:</strong>
+        Transportation, tour guide and accommodation.
+    </p>
+
+</div>
+
+
+
+<!-- =====================================================
+     POPUP 2
+===================================================== -->
+
+<div data-role="popup"
+     id="package2-popup"
+     class="package-popup"
+     data-dismissible="true">
+
+    <a href="#"
+       data-rel="back"
+       class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">
+        Close
+    </a>
+
+    <h2>Bako National Park</h2>
+
+    <p>
+        <strong>Destination:</strong>
+        Bako National Park
+    </p>
+
+    <p>
+        <strong>Activities:</strong>
+        Jungle trekking, wildlife observation and photography.
+    </p>
+
+    <p>
+        <strong>Facilities:</strong>
+        Transportation, guide and accommodation.
+    </p>
+
+</div>
+
+
+
+<!-- =====================================================
+     POPUP 3
+===================================================== -->
+
+<div data-role="popup"
+     id="package3-popup"
+     class="package-popup"
+     data-dismissible="true">
+
+    <a href="#"
+       data-rel="back"
+       class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">
+        Close
+    </a>
+
+    <h2>Mulu National Park</h2>
+
+    <p>
+        <strong>Destination:</strong>
+        Mulu National Park
+    </p>
+
+    <p>
+        <strong>Activities:</strong>
+        Cave exploration, hiking and rainforest exploration.
+    </p>
+
+    <p>
+        <strong>Facilities:</strong>
+        Transportation, tour guide, accommodation and meals.
+    </p>
+
+</div>
+
+
+
+<!-- =====================================================
+     POPUP 4
+===================================================== -->
+
+<div data-role="popup"
+     id="package4-popup"
+     class="package-popup"
+     data-dismissible="true">
+
+    <a href="#"
+       data-rel="back"
+       class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">
+        Close
+    </a>
+
+    <h2>Damai Beach Escape</h2>
+
+    <p>
+        <strong>Destination:</strong>
+        Damai Beach
+    </p>
+
+    <p>
+        <strong>Activities:</strong>
+        Beach activities, relaxation and sightseeing.
+    </p>
+
+    <p>
+        <strong>Facilities:</strong>
+        Transportation, accommodation and breakfast.
+    </p>
+
+</div>
+
+
+
+<!-- =====================================================
+     BOOKING PAGE
+===================================================== -->
+
+<div data-role="page" id="booking">
+
+    <div data-role="header" data-position="fixed">
+
+        <h1>Tour Booking</h1>
+
+        <div data-role="navbar">
+            <ul>
+
+                <li>
+                    <a href="#home"
+                       data-transition="slide">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#packages"
+                       data-transition="slide">
+                        Packages
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#booking"
+                       data-transition="slide"
+                       class="ui-btn-active">
+                        Booking
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact"
+                       data-transition="slide">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+
+    <div role="main" class="ui-content">
+
+        <h2 class="section-title">
+            Book Your Tour
+        </h2>
+
+        <form id="bookingForm">
+
+            <label for="bookingName">
+                Full Name
+            </label>
+
+            <input type="text"
+                   id="bookingName"
+                   name="bookingName"
+                   placeholder="Enter your full name">
+
+
+            <label for="phone">
+                Phone Number
+            </label>
+
+            <input type="tel"
+                   id="phone"
+                   name="phone"
+                   placeholder="Example: 0123456789">
+
+
+            <label for="bookingEmail">
+                Email
+            </label>
+
+            <input type="email"
+                   id="bookingEmail"
+                   name="bookingEmail"
+                   placeholder="example@email.com">
+
+
+            <label for="travelDate">
+                Travel Date
+            </label>
+
+            <input type="date"
+                   id="travelDate"
+                   name="travelDate">
+
+
+            <label for="participants">
+                Number of Participants
+            </label>
+
+            <input type="number"
+                   id="participants"
+                   name="participants"
+                   min="1"
+                   max="50"
+                   value="1">
+
+
+            <label for="tourPackage">
+                Select Tour Package
+            </label>
+
+            <select id="tourPackage"
+                    name="tourPackage">
+
+                <option value="">
+                    -- Select Package --
+                </option>
+
+                <option value="Kuching City Tour">
+                    Kuching City Tour - RM250
+                </option>
+
+                <option value="Bako National Park">
+                    Bako National Park - RM450
+                </option>
+
+                <option value="Mulu National Park">
+                    Mulu National Park - RM750
+                </option>
+
+                <option value="Damai Beach Escape">
+                    Damai Beach Escape - RM320
+                </option>
+
+            </select>
+
+
+            <div id="bookingError"
+                 class="error-message">
+            </div>
+
+
+            <div id="bookingSuccess"
+                 class="success-message">
+            </div>
+
+
+            <button type="submit"
+                    class="main-button">
+                Submit Booking
+            </button>
+
+            <button type="reset">
+                Clear Form
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <div data-role="footer">
+        <h4>©️ 2026 Sarawak Holiday Tours</h4>
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     CONTACT PAGE
+===================================================== -->
+
+<div data-role="page" id="contact">
+
+    <div data-role="header" data-position="fixed">
+
+        <h1>Contact Us</h1>
+
+        <div data-role="navbar">
+            <ul>
+
+                <li>
+                    <a href="#home"
+                       data-transition="slide">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#packages"
+                       data-transition="slide">
+                        Packages
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#booking"
+                       data-transition="slide">
+                        Booking
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact"
+                       data-transition="slide"
+                       class="ui-btn-active">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+
+    <div role="main" class="ui-content contact-content">
+
+        <h2 class="section-title">
+            Contact Sarawak Holiday Tours
+        </h2>
+
+        <p>
+            Have any questions about our tour packages?
+            Contact us through the form below.
+        </p>
+
+
+        <div class="contact-info">
+
+            <h3>📍 Address</h3>
+
+            <p>
+                Kuching, Sarawak, Malaysia
+            </p>
+
+            <h3>📞 Phone</h3>
+
+            <p>
+                +60 13 711 5167 +60 11 1992 7080
+            </p>
+
+            <h3>📧 Email</h3>
+
+            <p>
+                info@sarawakholiday.com
+            </p>
+
+        </div>
+
+
+        <!-- MODAL BUTTON -->
+
+        <a href="#contactModal"
+           data-rel="popup"
+           data-position-to="window"
+           data-transition="pop"
+           data-role="button"
+           class="main-button">
+            Open Contact Form
+        </a>
+
+    </div>
+
+
+    <div data-role="footer">
+        <h4>©️ 2026 Sarawak Holiday Tours</h4>
+    </div>
+
+</div>
+
+
+
+<!-- =====================================================
+     CONTACT US MODAL
+===================================================== -->
+
+<div data-role="popup"
+     id="contactModal"
+     data-overlay-theme="b"
+     data-theme="a"
+     data-dismissible="false"
+     class="contact-modal">
+
+    <div data-role="header">
+
+        <h2>Contact Us</h2>
+
+        <a href="#"
+           data-rel="back"
+           class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">
+            Close
+        </a>
+
+    </div>
+
+
+    <div role="main"
+         class="ui-content">
+
+        <form id="contactForm">
+
+            <!-- NAME -->
+
+            <label for="contactName">
+                Name
+            </label>
+
+            <input type="text"
+                   id="contactName"
+                   name="contactName"
+                   placeholder="Enter your name">
+
+            <div id="nameError"
+                 class="error-message">
+            </div>
+
+
+            <!-- EMAIL -->
+
+            <label for="contactEmail">
+                Email
+            </label>
+
+            <input type="email"
+                   id="contactEmail"
+                   name="contactEmail"
+                   placeholder="example@email.com">
+
+            <div id="emailError"
+                 class="error-message">
+            </div>
+
+
+            <!-- MESSAGE -->
+
+            <label for="message">
+                Message
+            </label>
+
+            <textarea id="message"
+                      name="message"
+                      rows="5"
+                      placeholder="Enter your message"></textarea>
+
+            <div id="messageError"
+                 class="error-message">
+            </div>
+
+
+            <!-- ETHICAL CONSENT -->
+
+            <fieldset data-role="controlgroup">
+
+                <label for="consent">
+
+                    <input type="checkbox"
+                           id="consent"
+                           name="consent">
+                    
+                 <p style="
+            color: white;
+            text-shadow: 4px 4px 4px black;
+        ">
+       I agree to the privacy and responsible
+                    use of my submitted information.
+        </p>
+
+    </div>
+
+</div>
+
+                </label>
+
+            </fieldset>
+
+
+            <div id="consentError"
+                 class="error-message">
+            </div>
+
+
+            <!-- SUCCESS -->
+
+            <div id="contactSuccess"
+                 class="success-message">
+            </div>
+
+
+            <button type="submit"
+                    class="main-button">
+                Submit Message
+            </button>
+
+            <button type="reset">
+                Clear
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+<!-- Our JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
+
+<button id="musicBtn" onclick="playMusic()">🎵 Play Music</button>
+
+<audio id="bgMusic" loop>
+    <source src="IMG_2917.MP4" type="audio/mpeg">
+</audio>
+
+<script>
+function playMusic() {
+    const music = document.getElementById("bgMusic");
+    const button = document.getElementById("musicBtn");
+
+    music.play();
+    button.classList.add("clicked");
+    button.innerHTML = "🎵 Playing...";
+}
+</script>
+</script>

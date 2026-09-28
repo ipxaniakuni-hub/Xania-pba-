@@ -1,0 +1,391 @@
+/* =====================================================
+   GENERAL
+===================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("motif sarwak.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #f5d400;
+}
+
+.ui-content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.ui-header {
+    background-color: #176b87 !important;
+    border-color: #176b87 !important;
+}
+
+.ui-header h1 {
+    color: white !important;
+    font-weight: bold;
+}
+
+
+/* =====================================================
+   NAVIGATION
+===================================================== */
+
+.ui-navbar li a {
+    font-weight: bold !important;
+}
+
+
+/* =====================================================
+   HOME
+===================================================== */
+
+.home-content {
+    padding: 0 !important;
+}
+
+.hero {
+    min-height: 450px;
+    padding: 80px 25px;
+    text-align: center;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)
+        ),
+        url("holiday.webp");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+}
+
+.hero h2 {
+    font-size: 38px;
+    margin-top: 60px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 650px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+
+/* =====================================================
+   BUTTONS
+===================================================== */
+
+.main-button {
+    background-color: #176b87 !important;
+    color: white !important;
+    border: none !important;
+}
+
+.secondary-button {
+    background-color: #ffffff !important;
+    color: #176b87 !important;
+}
+
+
+/* =====================================================
+   INFORMATION BOX
+===================================================== */
+
+.information-box {
+    padding: 40px 25px;
+    text-align: center;
+    background-color: white;
+}
+
+.information-box h2 {
+    color: #176b87;
+}
+
+.feature {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+
+    border-radius: 10px;
+    background-color: #f1f5f7;
+}
+
+.feature h3 {
+    color: #176b87;
+}
+
+
+/* =====================================================
+   SECTION
+===================================================== */
+
+.section-title {
+    text-align: center;
+    color: #176b87;
+    margin-top: 20px;
+}
+
+.section-description {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* =====================================================
+   TOUR PACKAGE CARD
+===================================================== */
+
+.package-card {
+    background-color: white;
+
+    margin: 25px auto;
+    max-width: 700px;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+.package-card img {
+    width: 100%;
+    height: 230px;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+.package-content {
+    padding: 25px;
+}
+
+.package-content h2 {
+    color: #176b87;
+}
+
+.package-content p {
+    line-height: 1.6;
+}
+
+.price {
+    color: #176b87;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* =====================================================
+   POPUP
+===================================================== */
+
+.package-popup {
+    padding: 25px;
+    max-width: 450px;
+    border-radius: 10px;
+}
+
+.package-popup h2 {
+    color: #176b87;
+}
+
+.package-popup p {
+    line-height: 1.6;
+}
+
+
+/* =====================================================
+   BOOKING
+===================================================== */
+
+#bookingForm {
+    background-color: white;
+
+    padding: 25px;
+
+    max-width: 700px;
+    margin: auto;
+
+    border-radius: 12px;
+
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+
+#bookingForm label {
+    font-weight: bold;
+}
+
+#bookingForm input,
+#bookingForm select {
+    margin-bottom: 15px;
+}
+
+
+/* =====================================================
+   CONTACT
+===================================================== */
+
+.contact-content {
+    text-align: center;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 30px auto;
+
+    padding: 25px;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+
+.contact-info h3 {
+    color: #176b87;
+}
+
+
+/* =====================================================
+   CONTACT MODAL
+===================================================== */
+
+.contact-modal {
+    width: 90%;
+    max-width: 600px;
+}
+
+.contact-modal .ui-header {
+    padding: 5px;
+}
+
+.contact-modal .ui-content {
+    max-width: none;
+}
+
+
+/* =====================================================
+   ERROR MESSAGE
+===================================================== */
+
+.error-message {
+    color: #d32f2f;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    margin-top: -8px;
+
+    margin-bottom: 12px;
+}
+
+
+/* =====================================================
+   SUCCESS MESSAGE
+===================================================== */
+
+.success-message {
+    display: none;
+
+    background-color: #e8f5e9;
+
+    color: #2e7d32;
+
+    padding: 15px;
+
+    margin: 15px 0;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+}
+
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.ui-footer {
+    background-color: #176b87 !important;
+    border-color: #176b87 !important;
+    color: white !important;
+}
+
+.ui-footer h4 {
+    color: white !important;
+}
+
+
+/* =====================================================
+   MOBILE RESPONSIVE
+===================================================== */
+
+@media screen and (max-width: 600px) {
+
+    .hero {
+        min-height: 400px;
+        padding: 50px 20px;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+        margin-top: 50px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .package-card {
+        margin: 20px 5px;
+    }
+
+    .package-card img {
+        height: 190px;
+    }
+
+    .package-content {
+        padding: 20px;
+    }
+
+    .contact-modal {
+        width: 95%;
+    }
+
+}
+
+
+/* =====================================================
+   TABLET / DESKTOP
+===================================================== */
+
+#musicBtn { position: fixed; right: 20px; top: 50%; transform: translateY(-50%); animation: bounce 1s infinite; z-index: 9999; }
+@keyframes bounce { 0%, 100% { margin-top: 0; }
+50% {
+    margin-top: -12px;
+}}
+#musicBtn.clicked { animation: none; }
+
+
+#musicBtn { position: fixed; right: 20px; top: 50%; transform: translateY(-50%); animation: bounce 1s infinite; z-index: 9999; }
+@keyframes bounce { 0%, 100% { margin-top: 0; }
+50% {
+    margin-top: -12px;
+}}
+#musicBtn.clicked { animation: none; }
+}
